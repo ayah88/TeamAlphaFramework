@@ -1,4 +1,4 @@
-#Feature:  Creating a Medicine Profile 
+Feature:  Creating a Medicine Profile 
   #As a QE I want to create a  medicine profile on Drugs
 
 
@@ -10,8 +10,6 @@
     #And  Customer clicks on Add Profile
     #When Customer enters profilename and customer enters contactname and customer enters phonenumber
     #Then Customer clicks on Save  
-    
-   #
    
    
  Scenario Outline: Successful creating Medicine Profile
