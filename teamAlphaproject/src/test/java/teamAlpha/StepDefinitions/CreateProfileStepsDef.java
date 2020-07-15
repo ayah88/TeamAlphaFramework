@@ -29,6 +29,7 @@ public class CreateProfileStepsDef {
 
 		System.out.println("Title of the homepage is : "+Hooks.driver.getTitle());
 		createProfile.pass("Customer is on homepage");
+		System.out.println("Hi");
 	}
 	
 	
