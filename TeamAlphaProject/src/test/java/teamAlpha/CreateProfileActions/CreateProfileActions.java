@@ -27,8 +27,9 @@ public class CreateProfileActions {
 	}
 
 	public void More() throws InterruptedException {
-		WebElement more2 = createprofilepage.More;
-		action.moveToElement(more2);
+
+		createprofilepage.More1.click();
+		/*action.moveToElement(more2);*/
 		Thread.sleep(2000);
 	}
 
@@ -41,18 +42,18 @@ public class CreateProfileActions {
 
 	public void sendProfilename(String name) {
 
-		createprofilepage.ProfileName.sendKeys("aalko");
+		createprofilepage.ProfileName.sendKeys(name);
 
 	}
 
 	public void ContactName(String contactN) {
 
-		createprofilepage.ContactName.sendKeys("Ayah");
+		createprofilepage.ContactName.sendKeys(contactN);
 	}
 
 	public void PhoneNumber(String number) {
 
-		createprofilepage.PhoneNumber.sendKeys("9737585566");
+		createprofilepage.PhoneNumber.sendKeys(number);
 	}
 	public void Save() {
 		createprofilepage.Save.click();

@@ -22,7 +22,7 @@ public class CreateProfileStepsDef {
 		
 		System.out.println("pass");
 
-
+/*
 		ExtentTest createProfile = null; 
 
 		createProfile = scenarioNode.createNode(new GherkinKeyword("Given"), "Customer is on Drugs homepage");
@@ -30,7 +30,7 @@ public class CreateProfileStepsDef {
 		System.out.println("Title of the homepage is : "+Hooks.driver.getTitle());
 		createProfile.pass("Customer is on homepage");
 		System.out.println("Hi");
-		System.out.println("Hi");
+		System.out.println("Hi");*/
 	}
 	
 	

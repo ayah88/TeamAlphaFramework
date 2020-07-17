@@ -22,14 +22,19 @@ public class InteractionCheckerStepDef {
 		interactioncheckeraction.clickInteractionChecker();
 	}
 
-	@Then("^Customer enters drug name and clicks Add$")
+	@Then("^Customer enters \"([^\\\"]*)\" and clicks Add$")
 	public void customer_enters_drug_name_and_clicks_Add(String drug) throws Throwable {
 		interactioncheckeraction.DrugName(drug);
+		Thread.sleep(2000);
+		interactioncheckeraction.ClickAddButton();
+		Thread.sleep(2000);
+		System.out.println("clicked add");
 	}
 
 	@Then("^Customer checks for interactions$")
 	public void customer_checks_for_interactions() throws Throwable {
 		interactioncheckeraction.ChecksForInteractions();
+		System.out.println("checked succesfully");
 	}
 
 }

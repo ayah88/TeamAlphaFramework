@@ -11,11 +11,11 @@ public class CreateProfilePage {
 	@FindBy(how=How.XPATH,using=("//*[@id=\"header\"]/div/div/div/nav/ul/li[6]/a"))
 	public WebElement More;
 	
-	@FindBy(how=How.LINK_TEXT,using=("More"))
+	@FindBy(how=How.XPATH,using=("//*[@id=\"header\"]/nav/ul/li[7]/a"))
 	public WebElement More1;
 
 
-	@FindBy(how=How.LINK_TEXT,using=("My Med List"))
+	@FindBy(how=How.XPATH,using=("//*[@id=\"header\"]/nav/ul/li[7]/ul/li[1]/a"))
 	public WebElement MyMedList;
 
 	@FindBy(how=How.XPATH,using="//div[@class='form-buttons']")

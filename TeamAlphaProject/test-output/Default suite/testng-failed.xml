@@ -5,7 +5,7 @@
     <classes>
       <class name="teamAlpha.Runner.TestRunner">
         <methods>
-          <include name="feature" invocation-numbers="0"/>
+          <include name="feature" invocation-numbers="1"/>
           <include name="tearDownClass"/>
           <include name="setUpClass"/>
         </methods>

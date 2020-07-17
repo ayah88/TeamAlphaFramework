@@ -19,21 +19,24 @@ public class InteractionCheckerAction {
 
 
 	public void clickInteractionChecker() {
-		interactioncheckerpage.interactionsChecker.click();
+		interactioncheckerpage.interactionsCheckerLink.click();
 
 	}
 
 	public void DrugName(String drug) {
 
-		interactioncheckerpage.ClickAdd.sendKeys("Tylenol");        	
+		interactioncheckerpage.DrugNameField.sendKeys(drug);        	
+	}
+	public void ClickAddButton() {
+
+		interactioncheckerpage.AddButton.click();        	
 	}
 
 
 
 
-
 	public void ChecksForInteractions() {
-		interactioncheckerpage.interactionsChecker.click();
+		interactioncheckerpage.CheckForInteractionsBtn.click();
 	}
 
 
