@@ -11,7 +11,7 @@ Feature:  Creating a Medicine Profile
     #When Customer enters profilename and customer enters contactname and customer enters phonenumber
     #Then Customer clicks on Save  
    
-   #git test
+   #git testcgfd
  Scenario Outline: Successful creating Medicine Profile
  Given Customer is on Drugs homepage
  When Customer clicks on more link
